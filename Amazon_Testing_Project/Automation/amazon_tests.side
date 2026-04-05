@@ -1,0 +1,96 @@
+{
+  "id": "bd0f0775-ffd6-46e8-a197-e067efd1ccc1",
+  "version": "2.0",
+  "name": "CA1",
+  "url": "https://www.amazon.fr/-/en/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.fr%2F%3Fref_%3Dnav_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=frflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0",
+  "tests": [{
+    "id": "7f22af32-bae0-4c13-a457-a4fe17419098",
+    "name": "Untitled",
+    "commands": [{
+      "id": "2898ff2f-d1ec-4c42-9803-24143a5936a2",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb10f42e-6d27-48bc-a1b6-d0834ee5c3c4",
+      "comment": "",
+      "command": "type",
+      "target": "id=ap_password",
+      "targets": [
+        ["id=ap_password", "id"],
+        ["name=password", "name"],
+        ["css=#ap_password", "css:finder"],
+        ["xpath=//input[@id='ap_password']", "xpath:attributes"],
+        ["xpath=//div[@id='authportal-main-section']/div[2]/div/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "rupam003@"
+    }, {
+      "id": "469f10b0-956c-427b-ad31-1a67fd07f045",
+      "comment": "",
+      "command": "click",
+      "target": "id=signInSubmit",
+      "targets": [
+        ["id=signInSubmit", "id"],
+        ["css=#signInSubmit", "css:finder"],
+        ["xpath=//input[@id='signInSubmit']", "xpath:attributes"],
+        ["xpath=//span[@id='auth-signin-button']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f6800b3-34d5-4b7f-bcb9-c63f21eedc4b",
+      "comment": "",
+      "command": "pause",
+      "target": "10000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e19f9e9e-779c-4b96-af00-dfa0553e9d08",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.fr/dp/B07QSW4JBL/ref=sspa_dk_detail_0?pd_rd_i=B07QSW4JBL&pd_rd_w=Om6BF&content-id=amzn1.sym.a0edc134-b335-466a-8f1c-52d543d4f4cf&pf_rd_p=a0edc134-b335-466a-8f1c-52d543d4f4cf&pf_rd_r=RG1F2WT4CMN16EMXRHYM&pd_rd_wg=sMoiu&pd_rd_r=cc00621b-f99f-438c-bacf-483d140dd117&aref=Um0phN7dwH&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&th=1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf935c89-3257-4d60-a47e-22d5207a6ecf",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-to-cart-button",
+      "targets": [
+        ["id=add-to-cart-button", "id"],
+        ["name=submit.add-to-cart", "name"],
+        ["css=#add-to-cart-button", "css:finder"],
+        ["xpath=//input[@id='add-to-cart-button']", "xpath:attributes"],
+        ["xpath=//span[@id='submit.add-to-cart']/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73481fba-c126-431f-bc61-04148487cc57",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sw-gtc .a-button-text",
+      "targets": [
+        ["css=#sw-gtc .a-button-text", "css:finder"],
+        ["xpath=(//a[contains(text(),'Go to basket')])[2]", "xpath:link"],
+        ["xpath=//span[@id='sw-gtc']/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/-/en/cart?ref_=sw_gtc')]", "xpath:href"],
+        ["xpath=//div[2]/div/span/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a9412161-c843-43ed-98df-845c55d58c2c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7f22af32-bae0-4c13-a457-a4fe17419098"]
+  }],
+  "urls": ["https://www.amazon.fr/-/en/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.fr%2F%3Fref_%3Dnav_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=frflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"],
+  "plugins": []
+}

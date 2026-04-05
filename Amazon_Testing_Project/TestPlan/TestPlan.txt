@@ -1,0 +1,4 @@
+Amazon Testing Project
+Modules: Login, Add to Cart
+Type: Functional Testing
+Tools: Selenium IDE, Mantis

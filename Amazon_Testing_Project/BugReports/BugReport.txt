@@ -1,0 +1,3 @@
+Bug ID: 1
+Summary: Cart not updating sometimes
+Severity: Medium
