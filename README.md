@@ -33,17 +33,9 @@ This repository contains my software testing projects demonstrating manual and a
 * Automated test scenarios using Selenium IDE
   
 ---
+### 2. API Testing Project – User Management-System-Demo API Used
 
-## Project Structure
-
-```plaintext
-Software-Testing-Portfolio/
-│── Amazon-Testing-Project/
-│── Project-2/
-│── Project-3/
-│── README.md
-```
 
 ## Conclusion
 
-This portfolio reflects my ability to perform end-to-end software testing using both manual and automation approaches.
+This portfolio reflects my ability to perform end-to-end software testing using manual approache.
