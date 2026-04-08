@@ -26,7 +26,7 @@
         ["xpath=//div[@id='authportal-main-section']/div[2]/div/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
         ["xpath=//form/div/div/input", "xpath:position"]
       ],
-      "value": "rupam003@"
+      "value": " "
     }, {
       "id": "469f10b0-956c-427b-ad31-1a67fd07f045",
       "comment": "",
